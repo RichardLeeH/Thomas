@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  ThomasDemo
+//  RDSysUrlSchemeSessionDemo
 //
-//  Created by lihui on 2017/1/29.
+//  Created by lihui on 2017/1/5.
 //  Copyright © 2017年 org.richard. All rights reserved.
 //
 

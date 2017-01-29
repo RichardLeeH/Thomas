@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9CC29BBF1E3E1E4B002DF107 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29BBE1E3E1E4B002DF107 /* main.m */; };
-		9CC29BC21E3E1E4B002DF107 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29BC11E3E1E4B002DF107 /* AppDelegate.m */; };
-		9CC29BC51E3E1E4B002DF107 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29BC41E3E1E4B002DF107 /* ViewController.m */; };
 		9CC29BC81E3E1E4B002DF107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC29BC61E3E1E4B002DF107 /* Main.storyboard */; };
 		9CC29BCA1E3E1E4B002DF107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC29BC91E3E1E4B002DF107 /* Assets.xcassets */; };
 		9CC29BCD1E3E1E4B002DF107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC29BCB1E3E1E4B002DF107 /* LaunchScreen.storyboard */; };
@@ -17,9 +15,16 @@
 		9CC29BE31E3E1E4B002DF107 /* ThomasDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29BE21E3E1E4B002DF107 /* ThomasDemoUITests.m */; };
 		9CC29BFE1E3E1EB8002DF107 /* Thomas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC29BF51E3E1EB7002DF107 /* Thomas.framework */; };
 		9CC29C051E3E1EB8002DF107 /* ThomasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29C041E3E1EB8002DF107 /* ThomasTests.m */; };
-		9CC29C071E3E1EB8002DF107 /* Thomas.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC29BF71E3E1EB8002DF107 /* Thomas.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CC29C0A1E3E1EB8002DF107 /* Thomas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC29BF51E3E1EB7002DF107 /* Thomas.framework */; };
 		9CC29C0B1E3E1EB8002DF107 /* Thomas.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC29BF51E3E1EB7002DF107 /* Thomas.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9CC29C161E3E2142002DF107 /* RDMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC29C131E3E2142002DF107 /* RDMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC29C171E3E2142002DF107 /* RDThomas.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC29C141E3E2142002DF107 /* RDThomas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC29C181E3E2142002DF107 /* RDThomas.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29C151E3E2142002DF107 /* RDThomas.m */; };
+		9CC29C281E3E2212002DF107 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29C1C1E3E2212002DF107 /* AppDelegate.m */; };
+		9CC29C291E3E2212002DF107 /* RDPlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29C1F1E3E2212002DF107 /* RDPlistManager.m */; };
+		9CC29C2A1E3E2212002DF107 /* RDPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29C231E3E2212002DF107 /* RDPageModel.m */; };
+		9CC29C2B1E3E2212002DF107 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29C251E3E2212002DF107 /* ViewController.m */; };
+		9CC29C2C1E3E2212002DF107 /* RDSysPage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CC29C271E3E2212002DF107 /* RDSysPage.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,10 +82,6 @@
 /* Begin PBXFileReference section */
 		9CC29BBA1E3E1E4B002DF107 /* ThomasDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThomasDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC29BBE1E3E1E4B002DF107 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9CC29BC01E3E1E4B002DF107 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9CC29BC11E3E1E4B002DF107 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9CC29BC31E3E1E4B002DF107 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9CC29BC41E3E1E4B002DF107 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9CC29BC71E3E1E4B002DF107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CC29BC91E3E1E4B002DF107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CC29BCC1E3E1E4B002DF107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,11 +93,22 @@
 		9CC29BE21E3E1E4B002DF107 /* ThomasDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThomasDemoUITests.m; sourceTree = "<group>"; };
 		9CC29BE41E3E1E4B002DF107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CC29BF51E3E1EB7002DF107 /* Thomas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Thomas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CC29BF71E3E1EB8002DF107 /* Thomas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thomas.h; sourceTree = "<group>"; };
 		9CC29BF81E3E1EB8002DF107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CC29BFD1E3E1EB8002DF107 /* ThomasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThomasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC29C041E3E1EB8002DF107 /* ThomasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThomasTests.m; sourceTree = "<group>"; };
 		9CC29C061E3E1EB8002DF107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC29C131E3E2142002DF107 /* RDMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDMacros.h; sourceTree = "<group>"; };
+		9CC29C141E3E2142002DF107 /* RDThomas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDThomas.h; sourceTree = "<group>"; };
+		9CC29C151E3E2142002DF107 /* RDThomas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDThomas.m; sourceTree = "<group>"; };
+		9CC29C1B1E3E2212002DF107 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CC29C1C1E3E2212002DF107 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CC29C1E1E3E2212002DF107 /* RDPlistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDPlistManager.h; sourceTree = "<group>"; };
+		9CC29C1F1E3E2212002DF107 /* RDPlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDPlistManager.m; sourceTree = "<group>"; };
+		9CC29C221E3E2212002DF107 /* RDPageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDPageModel.h; sourceTree = "<group>"; };
+		9CC29C231E3E2212002DF107 /* RDPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDPageModel.m; sourceTree = "<group>"; };
+		9CC29C241E3E2212002DF107 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CC29C251E3E2212002DF107 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CC29C271E3E2212002DF107 /* RDSysPage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RDSysPage.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,10 +179,8 @@
 		9CC29BBC1E3E1E4B002DF107 /* ThomasDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9CC29BC01E3E1E4B002DF107 /* AppDelegate.h */,
-				9CC29BC11E3E1E4B002DF107 /* AppDelegate.m */,
-				9CC29BC31E3E1E4B002DF107 /* ViewController.h */,
-				9CC29BC41E3E1E4B002DF107 /* ViewController.m */,
+				9CC29C191E3E2212002DF107 /* Classes */,
+				9CC29C261E3E2212002DF107 /* Resourses */,
 				9CC29BC61E3E1E4B002DF107 /* Main.storyboard */,
 				9CC29BC91E3E1E4B002DF107 /* Assets.xcassets */,
 				9CC29BCB1E3E1E4B002DF107 /* LaunchScreen.storyboard */,
@@ -209,7 +219,9 @@
 		9CC29BF61E3E1EB8002DF107 /* Thomas */ = {
 			isa = PBXGroup;
 			children = (
-				9CC29BF71E3E1EB8002DF107 /* Thomas.h */,
+				9CC29C131E3E2142002DF107 /* RDMacros.h */,
+				9CC29C141E3E2142002DF107 /* RDThomas.h */,
+				9CC29C151E3E2142002DF107 /* RDThomas.m */,
 				9CC29BF81E3E1EB8002DF107 /* Info.plist */,
 			);
 			path = Thomas;
@@ -224,6 +236,61 @@
 			path = ThomasTests;
 			sourceTree = "<group>";
 		};
+		9CC29C191E3E2212002DF107 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9CC29C1A1E3E2212002DF107 /* AppDelegate */,
+				9CC29C1D1E3E2212002DF107 /* Utils */,
+				9CC29C201E3E2212002DF107 /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9CC29C1A1E3E2212002DF107 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9CC29C1B1E3E2212002DF107 /* AppDelegate.h */,
+				9CC29C1C1E3E2212002DF107 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9CC29C1D1E3E2212002DF107 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9CC29C1E1E3E2212002DF107 /* RDPlistManager.h */,
+				9CC29C1F1E3E2212002DF107 /* RDPlistManager.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9CC29C201E3E2212002DF107 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9CC29C211E3E2212002DF107 /* Model */,
+				9CC29C241E3E2212002DF107 /* ViewController.h */,
+				9CC29C251E3E2212002DF107 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9CC29C211E3E2212002DF107 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CC29C221E3E2212002DF107 /* RDPageModel.h */,
+				9CC29C231E3E2212002DF107 /* RDPageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CC29C261E3E2212002DF107 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				9CC29C271E3E2212002DF107 /* RDSysPage.plist */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -231,7 +298,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC29C071E3E1EB8002DF107 /* Thomas.h in Headers */,
+				9CC29C171E3E2142002DF107 /* RDThomas.h in Headers */,
+				9CC29C161E3E2142002DF107 /* RDMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +467,7 @@
 				9CC29BCD1E3E1E4B002DF107 /* LaunchScreen.storyboard in Resources */,
 				9CC29BCA1E3E1E4B002DF107 /* Assets.xcassets in Resources */,
 				9CC29BC81E3E1E4B002DF107 /* Main.storyboard in Resources */,
+				9CC29C2C1E3E2212002DF107 /* RDSysPage.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,8 +506,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC29BC51E3E1E4B002DF107 /* ViewController.m in Sources */,
-				9CC29BC21E3E1E4B002DF107 /* AppDelegate.m in Sources */,
+				9CC29C2B1E3E2212002DF107 /* ViewController.m in Sources */,
+				9CC29C281E3E2212002DF107 /* AppDelegate.m in Sources */,
+				9CC29C291E3E2212002DF107 /* RDPlistManager.m in Sources */,
+				9CC29C2A1E3E2212002DF107 /* RDPageModel.m in Sources */,
 				9CC29BBF1E3E1E4B002DF107 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +534,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC29C181E3E2142002DF107 /* RDThomas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,6 +845,7 @@
 				9CC29BE91E3E1E4B002DF107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CC29BEA1E3E1E4B002DF107 /* Build configuration list for PBXNativeTarget "ThomasDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -781,6 +854,7 @@
 				9CC29BEC1E3E1E4B002DF107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CC29BED1E3E1E4B002DF107 /* Build configuration list for PBXNativeTarget "ThomasDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -789,6 +863,7 @@
 				9CC29BEF1E3E1E4B002DF107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CC29C0C1E3E1EB8002DF107 /* Build configuration list for PBXNativeTarget "Thomas" */ = {
 			isa = XCConfigurationList;
@@ -797,6 +872,7 @@
 				9CC29C0E1E3E1EB8002DF107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CC29C101E3E1EB8002DF107 /* Build configuration list for PBXNativeTarget "ThomasTests" */ = {
 			isa = XCConfigurationList;
@@ -805,6 +881,7 @@
 				9CC29C121E3E1EB8002DF107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

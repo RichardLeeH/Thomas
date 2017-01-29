@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>WiFI(无线设置),WIFI</string>
+	<string>Bluetooth(蓝牙设置),Bluetooth</string>
+	<string>Hotspot(热点设置),INTERNET_TETHERING</string>
+	<string>About(关于界面),General&amp;path=About</string>
+	<string>ACCESSIBILITY(辅助功能),General&amp;path=ACCESSIBILITY</string>
+	<string>BATTERY_USAGE(电池设置),BATTERY_USAGE</string>
+	<string>General(通用),General</string>
+	<string>(iCould),CASTLE</string>
+	<string>(AppStore),STORE</string>
+	<string>(iCloudStorage),CASTLE&amp;path=STORAGE_AND_BACKUP</string>
+	<string>Notification(通知),NOTIFICATIONS_ID</string>
+	<string>Phone(电话),Phone</string>
+	<string>Cellular(蜂窝移动),MOBILE_DATA_SETTINGS_ID</string>
+	<string>Sounds(声音),Sounds</string>
+	<string>Photos(照片),Photos</string>
+	<string>Wallpaper(壁纸),Wallpaper</string>
+	<string>(VPN),General&amp;path=VPN</string>
+	<string>Software Update(软件更新),General&amp;path=SOFTWARE_UPDATE_LINK</string>
+	<string>Date &amp; Time(时间日期),General&amp;path=DATE_AND_TIME</string>
+	<string>Keyboard(键盘),General&amp;path=Keyboard</string>
+	<string>Location(定位设置),Privacy&amp;path=LOCATION</string>
+	<string>DISPLAY(显示),DISPLAY</string>
+</array>
+</plist>
