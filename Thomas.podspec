@@ -19,6 +19,6 @@ fPod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/RichardLeeH/Thomas.git", :tag => s.version }
 
-  s.source_files  = "RDSysUrlSchemeSession/**/*.{h,m}"
+  s.source_files  = "Thomas/**/*.{h,m}"
 
 end
