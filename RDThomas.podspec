@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RDThomas"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "open sys settings and sub pages"
   s.description  = "open iOS sys settings and sub pages"
 
