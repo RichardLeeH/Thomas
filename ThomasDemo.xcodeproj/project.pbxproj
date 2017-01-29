@@ -13,10 +13,10 @@
 		9CC29BCD1E3E1E4B002DF107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC29BCB1E3E1E4B002DF107 /* LaunchScreen.storyboard */; };
 		9CC29BD81E3E1E4B002DF107 /* ThomasDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29BD71E3E1E4B002DF107 /* ThomasDemoTests.m */; };
 		9CC29BE31E3E1E4B002DF107 /* ThomasDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29BE21E3E1E4B002DF107 /* ThomasDemoUITests.m */; };
-		9CC29BFE1E3E1EB8002DF107 /* Thomas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC29BF51E3E1EB7002DF107 /* Thomas.framework */; };
+		9CC29BFE1E3E1EB8002DF107 /* RDThomas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC29BF51E3E1EB7002DF107 /* RDThomas.framework */; };
 		9CC29C051E3E1EB8002DF107 /* ThomasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29C041E3E1EB8002DF107 /* ThomasTests.m */; };
-		9CC29C0A1E3E1EB8002DF107 /* Thomas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC29BF51E3E1EB7002DF107 /* Thomas.framework */; };
-		9CC29C0B1E3E1EB8002DF107 /* Thomas.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC29BF51E3E1EB7002DF107 /* Thomas.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9CC29C0A1E3E1EB8002DF107 /* RDThomas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC29BF51E3E1EB7002DF107 /* RDThomas.framework */; };
+		9CC29C0B1E3E1EB8002DF107 /* RDThomas.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC29BF51E3E1EB7002DF107 /* RDThomas.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9CC29C161E3E2142002DF107 /* RDMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC29C131E3E2142002DF107 /* RDMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CC29C171E3E2142002DF107 /* RDThomas.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC29C141E3E2142002DF107 /* RDThomas.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CC29C181E3E2142002DF107 /* RDThomas.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC29C151E3E2142002DF107 /* RDThomas.m */; };
@@ -72,7 +72,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9CC29C0B1E3E1EB8002DF107 /* Thomas.framework in Embed Frameworks */,
+				9CC29C0B1E3E1EB8002DF107 /* RDThomas.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +92,7 @@
 		9CC29BDE1E3E1E4B002DF107 /* ThomasDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThomasDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC29BE21E3E1E4B002DF107 /* ThomasDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThomasDemoUITests.m; sourceTree = "<group>"; };
 		9CC29BE41E3E1E4B002DF107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CC29BF51E3E1EB7002DF107 /* Thomas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Thomas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC29BF51E3E1EB7002DF107 /* RDThomas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RDThomas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC29BF81E3E1EB8002DF107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CC29BFD1E3E1EB8002DF107 /* ThomasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThomasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC29C041E3E1EB8002DF107 /* ThomasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThomasTests.m; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC29C0A1E3E1EB8002DF107 /* Thomas.framework in Frameworks */,
+				9CC29C0A1E3E1EB8002DF107 /* RDThomas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC29BFE1E3E1EB8002DF107 /* Thomas.framework in Frameworks */,
+				9CC29BFE1E3E1EB8002DF107 /* RDThomas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +170,7 @@
 				9CC29BBA1E3E1E4B002DF107 /* ThomasDemo.app */,
 				9CC29BD31E3E1E4B002DF107 /* ThomasDemoTests.xctest */,
 				9CC29BDE1E3E1E4B002DF107 /* ThomasDemoUITests.xctest */,
-				9CC29BF51E3E1EB7002DF107 /* Thomas.framework */,
+				9CC29BF51E3E1EB7002DF107 /* RDThomas.framework */,
 				9CC29BFD1E3E1EB8002DF107 /* ThomasTests.xctest */,
 			);
 			name = Products;
@@ -376,7 +376,7 @@
 			);
 			name = Thomas;
 			productName = Thomas;
-			productReference = 9CC29BF51E3E1EB7002DF107 /* Thomas.framework */;
+			productReference = 9CC29BF51E3E1EB7002DF107 /* RDThomas.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9CC29BFC1E3E1EB8002DF107 /* ThomasTests */ = {
@@ -774,7 +774,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.richard.Thomas;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RDThomas;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -795,7 +795,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.richard.Thomas;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RDThomas;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
