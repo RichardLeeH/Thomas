@@ -1,4 +1,4 @@
-fPod::Spec.new do |s|
+Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
