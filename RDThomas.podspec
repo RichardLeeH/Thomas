@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RDThomas"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "open sys settings and sub pages"
   s.description  = "open iOS sys settings and sub pages"
 
-  s.homepage     = "https://github.com/Richardlihui/iOSOpenSysSettings"
+  s.homepage     = "https://github.com/RichardLeeH/Thomas"
   s.license      = "MIT"
   s.author             = { "RichardLee" => "305516208@qq.com" }
   s.platform     = :ios, "8.0"
