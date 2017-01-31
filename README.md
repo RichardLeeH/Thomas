@@ -20,10 +20,19 @@ Objective-C:
 
 #import <RDThomas/RDThomas.h>
 ...
-    [RDThomas openPage:RDSysPageWifi options:nil completionHandler:^(BOOL aSuccess) {
+    [RDThomas openPage:RDSysPageWifi completionHandler:^(BOOL aSuccess) {
     }];
 ```
 
+```Swift
+Swift:
+
+import RDThomas
+...
+        RDSwiftThomas.openPage(RDSysPageWifi) { (aSuccess) in
+            print(aSuccess)
+        }
+```
 
 Installation
 ------------
@@ -70,7 +79,9 @@ In the source files where you need to use the library, import the header file:
 ```objective-c
 #import <RDThomas/RDThomas.h>
 ```
-
+```Swift:
+import RDThomas
+```
 ## Licenses
 
 All source code is licensed under the [MIT License](https://raw.github.com/rs/SDWebImage/master/LICENSE).
