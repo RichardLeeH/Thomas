@@ -76,10 +76,12 @@ github "RichardLeeH/Thomas"
 
 In the source files where you need to use the library, import the header file:
 
-```objective-c
+```
+objective-c
 #import <RDThomas/RDThomas.h>
 ```
-```Swift:
+```
+Swift:
 import RDThomas
 ```
 ## Licenses
