@@ -71,10 +71,8 @@ NSString *const RDSysPageSysUpdate    = @"General&path=SOFTWARE_UPDATE_LINK";
  <#Description#>
  
  @param aPageName <#aPageName description#>
- @param aOptions <#options description#>
  */
 + (void)openPage:(NSString *)aPageName
-        options:(NSDictionary<NSString *, id> *)aOptions
 completionHandler:(void (^)(BOOL aSuccess))aCompletion
 {
     NSURL *url = [self pageUrlWith:aPageName];
@@ -84,7 +82,7 @@ completionHandler:(void (^)(BOOL aSuccess))aCompletion
         if ([RD_APPLICATION respondsToSelector:@selector(openURL:options:completionHandler:)])
         {
             [RD_APPLICATION openURL:url
-                            options:aOptions
+                            options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES}
                   completionHandler:aCompletion];
         }
         else

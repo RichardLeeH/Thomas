@@ -72,7 +72,6 @@ RD_EXPORT NSString *const RDSysPageSysUpdate;
  @param aOptions Options are specified in the section below for openURL options. An empty options dictionary will result in the same
  */
 + (void)openPage:(NSString *)aPageName
-         options:(NSDictionary<NSString *, id> *)aOptions
 completionHandler:(void (^)(BOOL aSuccess))aCompletion;
 
 @end
