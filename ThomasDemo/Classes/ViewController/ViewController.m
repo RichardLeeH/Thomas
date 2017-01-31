@@ -10,7 +10,7 @@
 
 #import "RDPageModel.h"
 
-#import <Thomas/RDThomas.h>
+#import <RDThomas/RDThomas.h>
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -42,7 +42,6 @@
 - (IBAction)openWifiOnClick:(id)aSender
 {
     [RDThomas openPage:RDSysPageWifi
-                            options:nil
                   completionHandler:^(BOOL aSuccess) {
                       NSLog(@"open url: %@", aSuccess? @"success": @"failure");
                   }];
@@ -51,8 +50,7 @@
 - (IBAction)openBluetoothOnClick:(id)aSender
 {
     [RDThomas openPage:RDSysPageBluetooth
-                            options:nil
-                  completionHandler:^(BOOL aSuccess) {
+                   completionHandler:^(BOOL aSuccess) {
                       NSLog(@"open url: %@", aSuccess? @"success": @"failure");
                   }];
 }
@@ -66,7 +64,6 @@
     NSString *type = model.type;
     
     [RDThomas openPage:type
-                            options:nil
                   completionHandler:^(BOOL aSuccess) {
                       NSLog(@"open url: %@", aSuccess? @"success": @"failure");
                   }];
