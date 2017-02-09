@@ -13,28 +13,28 @@ Thomas is a Library for opening settings page and sub pages on iOS 8+ in Objecti
 
 ## Supported settings pages
 
-- [x] Categories for `UIImageView`, `UIButton`, `MKAnnotationView` adding web image and cache management
-- [x] An asynchronous image downloader
-- [x] An asynchronous memory + disk image caching with automatic cache expiration handling
-- [x] A background image decompression
-- [x] A guarantee that the same URL won't be downloaded several times
-- [x] A guarantee that bogus URLs won't be retried again and again
-- [x] A guarantee that main thread will never be blocked
-- [x] Performances!
-- [x] Use GCD and ARC
-- [x] Categories for `UIImageView`, `UIButton`, `MKAnnotationView` adding web image and cache management
-- [x] An asynchronous image downloader
-- [x] An asynchronous memory + disk image caching with automatic cache expiration handling
-- [x] A background image decompression
-- [x] A guarantee that the same URL won't be downloaded several times
-- [x] A guarantee that bogus URLs won't be retried again and again
-- [x] A guarantee that main thread will never be blocked
-- [x] Performances!
-- [x] Use GCD and ARC
-- [x] A guarantee that bogus URLs won't be retried again and again
-- [x] A guarantee that main thread will never be blocked
-- [x] Performances!
-- [x] Use GCD and ARC
+- [x] /// open wifi page       		:RDSysPageWifi(无线网络)
+- [x] /// open buletooth page  		:RDSysPageBluetooth  (蓝牙)
+- [x] /// open hotsopt page    		:RDSysPageHotspot (个人热点)
+- [x] /// open about page      		:RDSysPageAbout (关于)
+- [x] /// open General         		:RDSysPageGeneral(通用)
+- [x] /// open Cellular        		:RDSysPageCellular(蜂窝移动)
+- [x] /// open iCloud          		:RDSysPage_iCloud
+- [x] /// open iCloud strorage 		:RDSysPage_iCloudStorage
+- [x] /// open app store       		:RDSysPageStore
+- [x] /// open notification    		:RDSysPageNotification(通知)
+- [x] /// open DISPLAY         		:RDSysPageDisplay(显示)
+- [x] /// open Location        		:RDSysPageLocation(位置)
+- [x] /// open Keyboard        		:RDSysPageKeyboard(键盘)
+- [x] /// open DateTime        		:RDSysPageDateTime(日期时间)
+- [x] /// open VPN             		:RDSysPageVPN
+- [x] /// open Phone           		:RDSysPagePhone(电话)
+- [x] /// open Sounds          		:RDSysPageSounds(声音)
+- [x] /// open Photos          		:RDSysPagePhotos(照片)
+- [x] /// open Wallpaper       		:RDSysPageWallpaper(壁纸)
+- [x] /// open BATTERY_USAGE   		:RDSysPageBATTERY(电池设置)
+- [x] /// open ACCESSIBILITY   		:RDSysPageACCESSIBILITY(辅助功能)
+- [x] /// open iOS SoftwareUpdate :RDSysPageSysUpdate(iOS 更新)
 
 ## Installation
 
