@@ -11,6 +11,31 @@ Thomas is a Library for opening settings page and sub pages on iOS 8+ in Objecti
 
 - iOS 8.0 or later
 
+## Supported settings pages
+
+- [x] Categories for `UIImageView`, `UIButton`, `MKAnnotationView` adding web image and cache management
+- [x] An asynchronous image downloader
+- [x] An asynchronous memory + disk image caching with automatic cache expiration handling
+- [x] A background image decompression
+- [x] A guarantee that the same URL won't be downloaded several times
+- [x] A guarantee that bogus URLs won't be retried again and again
+- [x] A guarantee that main thread will never be blocked
+- [x] Performances!
+- [x] Use GCD and ARC
+- [x] Categories for `UIImageView`, `UIButton`, `MKAnnotationView` adding web image and cache management
+- [x] An asynchronous image downloader
+- [x] An asynchronous memory + disk image caching with automatic cache expiration handling
+- [x] A background image decompression
+- [x] A guarantee that the same URL won't be downloaded several times
+- [x] A guarantee that bogus URLs won't be retried again and again
+- [x] A guarantee that main thread will never be blocked
+- [x] Performances!
+- [x] Use GCD and ARC
+- [x] A guarantee that bogus URLs won't be retried again and again
+- [x] A guarantee that main thread will never be blocked
+- [x] Performances!
+- [x] Use GCD and ARC
+
 ## Installation
 
 ## How To Use
