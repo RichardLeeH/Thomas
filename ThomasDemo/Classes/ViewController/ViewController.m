@@ -41,10 +41,14 @@
 //=================================================================
 - (IBAction)openWifiOnClick:(id)aSender
 {
-    [RDThomas openPage:RDSysPageWifi
-                  completionHandler:^(BOOL aSuccess) {
-                      NSLog(@"open url: %@", aSuccess? @"success": @"failure");
-                  }];
+//    [RDThomas openPage:RDSysPageWifi
+//                  completionHandler:^(BOOL aSuccess) {
+//                      NSLog(@"open url: %@", aSuccess? @"success": @"failure");
+//                  }];
+    [RDThomas openPage:@"org.richard.ThomasDemo"
+     completionHandler:^(BOOL aSuccess) {
+         NSLog(@"open url: %@", aSuccess? @"success": @"failure");
+     }];
 }
 
 - (IBAction)openBluetoothOnClick:(id)aSender
@@ -53,6 +57,13 @@
                    completionHandler:^(BOOL aSuccess) {
                       NSLog(@"open url: %@", aSuccess? @"success": @"failure");
                   }];
+}
+
+- (IBAction)openOwnSettinsOnClick:(id)aSender
+{
+    [RDThomas openOwnSettingsPageWith:^(BOOL aSuccess) {
+        NSLog(@"open url: %@", aSuccess? @"success": @"failure");
+    }];
 }
 
 //=================================================================
