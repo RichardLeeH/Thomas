@@ -75,35 +75,17 @@ NSString *const RDSysPageSysUpdate    = @"General&path=SOFTWARE_UPDATE_LINK";
 + (void)openPage:(NSString *)aPageName
 completionHandler:(void (^)(BOOL aSuccess))aCompletion
 {
-    NSURL *url = [self pageUrlWith:aPageName];
-    
-    if ([RD_APPLICATION canOpenURL:url])
-    {
-        if ([RD_APPLICATION respondsToSelector:@selector(openURL:options:completionHandler:)])
-        {
-            [RD_APPLICATION openURL:url
-                            options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES}
-                  completionHandler:aCompletion];
-        }
-        else
-        {
-            BOOL isOpened = [RD_APPLICATION openURL:url];
-            if (aCompletion)
-            {
-                aCompletion(isOpened);
-            }
-        }
-    }
-    else
-    {
-        if (aCompletion)
-        {
-            aCompletion(NO);
-        }
-    }
+    NSURL *url = [self _pageUrlWith:aPageName];
+    [RDThomas _openPage:url completionHandler:aCompletion];
 }
 
-+ (NSURL *)pageUrlWith:(NSString *)aPageName
++ (void)openOwnSettingsPageWith:(void (^)(BOOL aSuccess))aCompletion
+{
+    NSURL *url = [self _pageUrlWith:[[NSBundle mainBundle] bundleIdentifier]];
+    [RDThomas _openPage:url completionHandler:aCompletion];
+}
+
++ (NSURL *)_pageUrlWith:(NSString *)aPageName
 {
     NSMutableString *urlStr = [NSMutableString string];
     //    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0)
@@ -120,6 +102,35 @@ completionHandler:(void (^)(BOOL aSuccess))aCompletion
     [urlStr appendString:aPageName];
     NSURL *url = [NSURL URLWithString:urlStr];
     return url;
+}
+
++ (void)_openPage:(NSURL *)aURL
+completionHandler:(void (^)(BOOL aSuccess))aCompletion
+{
+    if ([RD_APPLICATION canOpenURL:aURL])
+    {
+        if ([RD_APPLICATION respondsToSelector:@selector(openURL:options:completionHandler:)])
+        {
+            [RD_APPLICATION openURL:aURL
+                            options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES}
+                  completionHandler:aCompletion];
+        }
+        else
+        {
+            BOOL isOpened = [RD_APPLICATION openURL:aURL];
+            if (aCompletion)
+            {
+                aCompletion(isOpened);
+            }
+        }
+    }
+    else
+    {
+        if (aCompletion)
+        {
+            aCompletion(NO);
+        }
+    }
 }
 
 @end

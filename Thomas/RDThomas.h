@@ -68,10 +68,12 @@ RD_EXPORT NSString *const RDSysPageSysUpdate;
 /**
  <#Description#>
 
- @param aPageName page name
- @param aOptions Options are specified in the section below for openURL options. An empty options dictionary will result in the same
+ @param aPageName <#aPageName description#>
+ @param aCompletion <#aCompletion description#>
  */
 + (void)openPage:(NSString *)aPageName
 completionHandler:(void (^)(BOOL aSuccess))aCompletion;
+
++ (void)openOwnSettingsPageWith:(void (^)(BOOL aSuccess))aCompletion;
 
 @end
