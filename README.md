@@ -5,7 +5,7 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Richardlihui/iOSOpenSysSettings/master/LICENSE)
 
-Thomas is a Library for opening settings page and sub pages on iOS 8+ in Objective-C
+Thomas is a Library for opening settings page and sub pages on iOS 8+ in Objective-C/swift
 
 ## Requirements
 
@@ -35,6 +35,7 @@ Thomas is a Library for opening settings page and sub pages on iOS 8+ in Objecti
 - [x] /// open BATTERY_USAGE   		:RDSysPageBATTERY(电池设置)
 - [x] /// open ACCESSIBILITY   		:RDSysPageACCESSIBILITY(辅助功能)
 - [x] /// open iOS SoftwareUpdate :RDSysPageSysUpdate(iOS 更新)
+- [x] /// 打开 本身 设置页面
 
 ## Installation
 
@@ -47,6 +48,9 @@ Objective-C:
 ...
     [RDThomas openPage:RDSysPageWifi completionHandler:^(BOOL aSuccess) {
     }];
+...
+    [RDThomas openOwnSettingsPageWith:^(BOOL aSuccess) {
+    }];
 ```
 
 ```Swift
@@ -57,12 +61,16 @@ import RDThomas
         RDSwiftThomas.openPage(RDSysPageWifi) { (aSuccess) in
             print(aSuccess)
         }
+...
+        RDSwiftThomas.openOwnSettingsPageWith { (aSuccess) in
+            print(aSuccess)
+        }
 ```
 
 Installation
 ------------
 
-There are three ways to use SDWebImage in your project:
+There are three ways to use RDThomas in your project:
 - using CocoaPods
 - using Carthage
 - by cloning the project into your repository
